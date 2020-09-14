@@ -13,6 +13,7 @@ import Functions from './components/Functions'
 import Numbers from './components/Numbers'
 
 
+
 // Creación de la función del componente
 const App = () => {
     // Array destructuring
@@ -28,7 +29,9 @@ const App = () => {
     console.log('Renderización de App', value)
 
     return (
+        
         <main className="react-calculator">
+            
             <Result value={value} />
             <Numbers 
                 onClickNumber={number => {
